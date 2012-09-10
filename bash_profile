@@ -1,2 +1,5 @@
 export PS1="\W$ "
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+
+# RBENV
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
