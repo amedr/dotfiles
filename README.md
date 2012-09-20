@@ -2,14 +2,11 @@
 
 ## Installation
 
-### Using Git
+After cloning the repository, the install.sh script will symlink all the 
+dotfiles to your home folder.
 
-You may want to clone the repository to your home directory. The install.sh script will symlink the dotfiles to your home folder.
+    $ git clone https://github.com/amedr/dotfiles.git && cd dotfiles && ./install.sh
 
-```bash
-git clone https://github.com/amedse/dotfiles.git && cd dotfiles && ./install.sh
-```
+## Vim Plugins included
 
-## Notes
-
-For VIM, it assumes that you will use [Janus](https://github.com/carlhuda/janus) `.vimrc` files.
+* The NERD tree: A tree explorer plugin for navigating the filesystem.
