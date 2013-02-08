@@ -26,15 +26,23 @@ set smartcase                  " ignore case if search pattern is all lowercase,
 set smarttab                   " insert tabs on the start of a line according to shiftwidth, not tabstop
 set hlsearch                   " highlight search terms
 set incsearch                  " show search matches as you type
+set pastetoggle=<F2>           " Avoid cascading indents when pasting large amounts of text 
 
 filetype plugin indent on
 
 " , the leader character
 let mapleader = ","
 
+if &t_Co >= 256 || has("gui_running")
+  colorscheme railscasts
+endif
+
 if &t_Co > 2 || has("gui_running")
+  " switch syntax highlighting on, when the terminal has colors
   syntax on
-  colorscheme hemisu
 endif
 
 :nmap <leader>n :NERDTreeToggle<Enter>
+
+" It clears the search buffer
+:nmap <leader>/ :nohlsearch<CR> 
