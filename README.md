@@ -9,4 +9,6 @@ dotfiles to your home folder.
 
 ## Vim Plugins included
 
-* The NERD tree: A tree explorer plugin for navigating the filesystem.
+* nerdtree: A tree explorer plugin for navigating the filesystem.
+* vim-fugitive: May very well be the best Git wrapper of all time.
+* vim-rspec: A lightweight Rspec runner.
