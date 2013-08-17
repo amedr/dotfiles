@@ -27,6 +27,10 @@ set smarttab                   " insert tabs on the start of a line according to
 set hlsearch                   " highlight search terms
 set incsearch                  " show search matches as you type
 set pastetoggle=<F2>           " Avoid cascading indents when pasting large amounts of text 
+set laststatus=2               " Always display the status line.
+set statusline=%F%m%r%h%w      " Status line display
+set statusline+=\ %{fugitive#statusline()}
+set statusline+=\ [line\ %l\/%L] 
 
 filetype plugin indent on
 
