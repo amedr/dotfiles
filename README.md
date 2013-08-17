@@ -14,3 +14,4 @@ dotfiles to your home folder.
 * vim-rspec: A lightweight Rspec runner.
 * vim-coffee-script: CoffeeScript support. It handles syntax, indenting, compiling, and more.
 * html5.vim: HTML5 omnicomplete and syntax.
+* vim-handlebars: Help you editing Handlebars files.
