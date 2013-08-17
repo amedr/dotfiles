@@ -1,5 +1,9 @@
 #!/bin/sh
 
+echo "Fetching necessary Git submodules"
+git submodule init
+git submodule update
+
 echo "Creating symlink for bash_profile"
 ln -s "$PWD/bash_profile" "$HOME/.bash_profile"
 
