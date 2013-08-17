@@ -12,3 +12,5 @@ dotfiles to your home folder.
 * nerdtree: A tree explorer plugin for navigating the filesystem.
 * vim-fugitive: May very well be the best Git wrapper of all time.
 * vim-rspec: A lightweight Rspec runner.
+* vim-coffee-script: CoffeeScript support. It handles syntax, indenting, compiling, and more.
+* html5.vim: HTML5 omnicomplete and syntax.
