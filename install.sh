@@ -13,4 +13,7 @@ ln -s "$PWD/vimrc" "$HOME/.vimrc"
 echo "Creating symlink for vim"
 ln -s "$PWD/vim" "$HOME/.vim"
 
+echo "Creating symlink for slate.js"
+ln -s "$PWD/slate.js" "$HOME/.slate.js"
+
 echo "Done!"
