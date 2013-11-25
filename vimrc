@@ -30,7 +30,12 @@ set pastetoggle=<F2>           " Avoid cascading indents when pasting large amou
 set laststatus=2               " Always display the status line.
 set statusline=%F%m%r%h%w      " Status line display
 set statusline+=\ %{fugitive#statusline()}
-set statusline+=\ [line\ %l\/%L] 
+set statusline+=\ [line/col\ %l,%v]
+set colorcolumn=80             " Highlight columns > 80
+set cursorline                 " Highlight the current line
+
+" Highlight columns > 80
+let &colorcolumn=join(range(81,999),",")
 
 filetype plugin indent on
 
