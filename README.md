@@ -2,7 +2,7 @@
 
 ## Installation
 
-After cloning the repository, the install.sh script will symlink all the 
+After cloning the repository, the install.sh script will symlink all the
 dotfiles to your home folder.
 
     $ git clone git@github.com/amedr/dotfiles.git && cd dotfiles && ./install.sh
@@ -15,3 +15,4 @@ dotfiles to your home folder.
 * [vim-coffee-script](http://github.com/kchmck/vim-coffee-script): CoffeeScript support. It handles syntax, indenting, compiling, and more.
 * [html5.vim](http://github.com/othree/html5.vim): HTML5 omnicomplete and syntax.
 * [vim-handlebars](http://github.com/nono/vim-handlebars): Help you editing Handlebars files.
+* [vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace): Highlights trailing whitespace in red.

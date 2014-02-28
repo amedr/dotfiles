@@ -22,3 +22,6 @@
 	path = vim/bundle/html5
 	url = git://github.com/othree/html5.vim.git
 	branch = master
+[submodule "vim/bundle/vim-trailing-whitespace"]
+	path = vim/bundle/vim-trailing-whitespace
+	url = git://github.com/bronson/vim-trailing-whitespace.git
