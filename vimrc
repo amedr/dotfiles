@@ -63,3 +63,4 @@ map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
 let g:rspec_command = "!rspec -fd {spec}"
+set runtimepath^=~/.vim/bundle/ctrlp.vim
