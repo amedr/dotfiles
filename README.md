@@ -16,3 +16,5 @@ dotfiles to your home folder.
 * [html5.vim](http://github.com/othree/html5.vim): HTML5 omnicomplete and syntax.
 * [vim-handlebars](http://github.com/nono/vim-handlebars): Help you editing Handlebars files.
 * [vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace): Highlights trailing whitespace in red.
+* [ctrl-p](https://github.com/kien/ctrlp.vim): Fuzzy file, buffer, mru, tag, etc finder.
+* [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax): Enhanced javascript syntax file.
