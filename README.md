@@ -18,3 +18,5 @@ dotfiles to your home folder.
 * [vim-trailing-whitespace](https://github.com/bronson/vim-trailing-whitespace): Highlights trailing whitespace in red.
 * [ctrl-p](https://github.com/kien/ctrlp.vim): Fuzzy file, buffer, mru, tag, etc finder.
 * [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax): Enhanced javascript syntax file.
+* [vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides): Visually displaying indent levels in code.
+* [vim-javascript](https://github.com/pangloss/vim-javascript): Improved Javascript indentation and syntax support.
