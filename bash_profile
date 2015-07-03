@@ -2,6 +2,9 @@ export PS1="\W$ "
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
+export PATH=/usr/local/sbin:$PATH
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 eval "$(rbenv init -)"
 
 # Command aliases
