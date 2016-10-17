@@ -1,4 +1,4 @@
-export PS1="\W$ "
+export PS1="$ "
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
 export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"
@@ -15,7 +15,6 @@ alias gc='git commit'
 alias go='git checkout '
 alias be='bundle exec '
 alias fs='foreman start'
-alias rspec="bundle exec rspec"
 alias rails="bundle exec rails"
 alias rake="bundle exec rake"
 alias es="ember server"

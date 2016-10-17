@@ -37,3 +37,9 @@
 [submodule "vim/bundle/vim-indent-guides"]
 	path = vim/bundle/vim-indent-guides
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "vim/ngmy/vim-rubocop"]
+	path = vim/ngmy/vim-rubocop
+	url = git@github.com:ngmy/vim-rubocop.git
+[submodule "vim/bundle/vim-rubocop"]
+	path = vim/bundle/vim-rubocop
+	url = git@github.com:ngmy/vim-rubocop.git
